@@ -1,0 +1,72 @@
+<ion-view view-title="{{ 'contact-info-title' | translate }}" class="back">
+  <ion-content>
+    <div class="list card opaque">
+
+      <div ng-show="contactInfo.details">
+        <div class="item item-divider">
+          <h2>{{ contactInfo.details.title }}</h2>
+        </div>
+
+        <div class="item">
+          <div ng-show="contactInfo.details.address">
+            <h2 translate="address-title"></h2>
+            <p>{{ contactInfo.details.address }}</p>
+          </div>
+          <div ng-show="contactInfo.details.phone">
+            <h2 translate="telephone-title"></h2>
+            <p>{{ coctactInfo.details.phone }}</p>
+          </div>
+          <div ng-show="contactInfo.details.webpage">
+            <h2 translate="webpage-title"></h2>
+            <p>{{ coctactInfo.details.webpage }}</p>
+          </div>
+          <div ng-show="contactInfo.details.other">
+            <h2 translate="other-title"></h2>
+            <p>{{ coctactInfo.details.other }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div ng-show="contactInfo.social">
+        <div class="item item-divider">
+          <h2>{{ contactInfo.social.title }}</h2>
+        </div>
+
+        <div class="item">
+          <a ng-show="contactInfo.social.twitter" ng-click="launchTwitter()" class="item item-icon-left">
+            <i class="icon ion-home"></i>
+            {{ contactInfo.social.twitter }}
+          </a>
+          <a ng-show="contactInfo.social.facebook" ng-click="launchFacebook()" class="item item-icon-left">
+            <i class="icon ion-ios-telephone"></i>
+            {{ contactInfo.social.facebook }}
+          </a>
+          <a ng-show="contactInfo.social.linkedIn" ng-click="launchLinkedIn()" class="item item-icon-left">
+            <i class="icon ion-wifi"></i>
+            {{ contactInfo.social.linkedIn }}
+          </a>
+          <a ng-show="contactInfo.social.youtube" ng-click="launchYouTube()" class="item item-icon-left">
+            <i class="icon ion-card"></i>
+            {{ contactInfo.social.youtube }}
+          </a>
+          <a ng-show="contactInfo.social.other" ng-click="launchOther()" class="item item-icon-left">
+            <i class="icon ion-card"></i>
+            {{ contactInfo.social.other }}
+          </a>
+        </div>
+      </div>
+
+      <div ng-show="contactInfo.organizers">
+        <div class="item item-divider">
+          <h2>{{ contactInfo.organizers.title }}</h2>
+        </div>
+
+        <div class="item" ng-repeat="item in contactInfo.organizers.items">
+          <h2>{{ item.name }}</h2>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
