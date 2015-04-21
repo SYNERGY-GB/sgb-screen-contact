@@ -1,0 +1,24 @@
+{
+  "name": "sgb-screen-contact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/sgb-screen-contact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SYNERGY-GB/sgb-screen-contact.git"
+  },
+  "author": "Juan Garcia <juan.garcia@synergy-gb.com>",
+  "license": "Propietary",
+  "bugs": {
+    "url": "https://github.com/SYNERGY-GB/sgb-screen-contact/issues"
+  },
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-contact",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "vinyl-transform": "^1.0.0"
+  }
+}
