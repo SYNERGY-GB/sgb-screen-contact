@@ -1,0 +1,6 @@
+$contact-background: '../resources/bg.png';
+
+.contactBackground {
+  background: url($contact-background) no-repeat center;
+  background-size: 100%;
+}
