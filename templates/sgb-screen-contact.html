@@ -14,15 +14,15 @@
           </div>
           <div ng-show="contactInfo.details.phone">
             <h2 translate="telephone-title"></h2>
-            <p>{{ coctactInfo.details.phone }}</p>
+            <p>{{ contactInfo.details.phone }}</p>
           </div>
           <div ng-show="contactInfo.details.webpage">
             <h2 translate="webpage-title"></h2>
-            <p>{{ coctactInfo.details.webpage }}</p>
+            <p>{{ contactInfo.details.webpage }}</p>
           </div>
           <div ng-show="contactInfo.details.other">
             <h2 translate="other-title"></h2>
-            <p>{{ coctactInfo.details.other }}</p>
+            <p>{{ contactInfo.details.other }}</p>
           </div>
         </div>
       </div>
@@ -34,11 +34,11 @@
 
         <div class="item">
           <a ng-show="contactInfo.social.twitter" ng-click="launchTwitter()" class="item item-icon-left">
-            <i class="icon ion-home"></i>
+            <i class="icon ion-at"></i>
             {{ contactInfo.social.twitter }}
           </a>
           <a ng-show="contactInfo.social.facebook" ng-click="launchFacebook()" class="item item-icon-left">
-            <i class="icon ion-ios-telephone"></i>
+            <i class="icon ion-person"></i>
             {{ contactInfo.social.facebook }}
           </a>
           <a ng-show="contactInfo.social.linkedIn" ng-click="launchLinkedIn()" class="item item-icon-left">
@@ -46,11 +46,11 @@
             {{ contactInfo.social.linkedIn }}
           </a>
           <a ng-show="contactInfo.social.youtube" ng-click="launchYouTube()" class="item item-icon-left">
-            <i class="icon ion-card"></i>
+            <i class="ion-videocamera"></i>
             {{ contactInfo.social.youtube }}
           </a>
           <a ng-show="contactInfo.social.other" ng-click="launchOther()" class="item item-icon-left">
-            <i class="icon ion-card"></i>
+            <i class="icon ion-images"></i>
             {{ contactInfo.social.other }}
           </a>
         </div>
