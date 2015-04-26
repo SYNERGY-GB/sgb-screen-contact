@@ -1,7 +1,7 @@
 {
-  "contact-info-title": "Contacto",
-  "address-title": "DIrección:",
-  "telephone-title": "Teléfono:",
-  "webpage-title": "Página Web:",
-  "other-title": "Otro:"
+  "contact_info_title": "Contacto",
+  "address_title": "Dirección:",
+  "telephone_title": "Teléfono:",
+  "webpage_title": "Página Web:",
+  "other_title": "Otro:"
 }

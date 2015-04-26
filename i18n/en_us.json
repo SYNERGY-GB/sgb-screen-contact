@@ -1,7 +1,7 @@
 {
-  "contact-info-title": "Contact",
-  "address-title": "Address:",
-  "telephone-title": "Telephone:",
-  "webpage-title": "Web Page:",
-  "other-title": "Other:"
+  "contact_info_title": "Contact",
+  "address_title": "Address:",
+  "telephone_title": "Telephone:",
+  "webpage_title": "Web Page:",
+  "other_title": "Other:"
 }

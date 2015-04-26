@@ -2,18 +2,20 @@
 'use strict';
 
 angular.module('sgb-screen-contact', ['megazord'])
-  .controller('sgb-screen-contact-controller', ['$stateParams', '$scope', function($stateParams, $scope){
-    $scope.contactInfo = $stateParams.data;
+  .controller('sgb-screen-contact-controller', ['$stateParams', '_screenParams', '$scope', function($stateParams, _screenParams, $scope){
 
-    $scope.launchTwitter = function(){};
+      $scope.title = _screenParams.title || 'contact_info_title';
+      $scope.contactInfo = $stateParams.data;
 
-    $scope.launchFacebook = function(){};
+      $scope.launchTwitter = function(){};
 
-    $scope.launchLinkedIn = function(){};
+      $scope.launchFacebook = function(){};
 
-    $scope.launchYouTube = function(){};
+      $scope.launchLinkedIn = function(){};
 
-    $scope.launchOther = function(){};
+      $scope.launchYouTube = function(){};
+
+      $scope.launchOther = function(){};
 
   }]);
 },{}]},{},[1]);
