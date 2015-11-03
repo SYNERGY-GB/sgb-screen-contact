@@ -1,9 +1,10 @@
 {
   "name": "sgb-screen-contact",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "homepage": "https://github.com/SYNERGY-GB/sgb-screen-contact",
   "authors": [
-    "Juan Garcia <juan.garcia@synergy-gb.com>"
+    "Juan Garcia <juan.garcia@synergy-gb.com>",
+    "Alexander A. Ramírez M. <alexander.ramirez@synergy-gb.com>"
   ],
   "main": "dist/sgb-screen-contact.js",
   "moduleType": [
@@ -19,6 +20,6 @@
     "tests"
   ],
   "dependencies": {
-    "megazord-framework": "git@github.com:SYNERGY-GB/megazord-framework.git#master"
+    "megazord-framework": "git@github.com:SYNERGY-GB/megazord-framework.git#1.2.1"
   }
 }
